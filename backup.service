@@ -1,0 +1,8 @@
+[Unit]
+Description=Auto backup
+
+[Service]
+ExecStart=<ABSOLUTE PATH TO THE backup.sh FILE>
+
+[Install]
+WantedBy=multi-user.target
